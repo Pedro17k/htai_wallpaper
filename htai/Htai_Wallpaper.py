@@ -60,7 +60,7 @@ def set_wallpaper_kalilinux(save_path):
 
 def main():
 
-    image_url = 'https://pbs.twimg.com/media/D6CxH8sVUAAphSj?format=jpg&name=4096x4096'
+    image_url = 'https://i.pinimg.com/736x/d8/aa/cb/d8aacbedc7d4d36059c53fd63e4ec72a.jpg'
     if platform.system() == "Windows":
         save_path = os.path.join(os.getenv('USERPROFILE'), 'Downloads', 'anime_wallpaper.jpg')
     else:
